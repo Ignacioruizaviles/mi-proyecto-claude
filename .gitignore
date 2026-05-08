@@ -1,0 +1,30 @@
+# Dependencias
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Variables de entorno (NUNCA subas esto)
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
