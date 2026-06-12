@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ámbar Noir — Maison Aurelle</title>
+  <meta name="description" content="Ámbar Noir, Eau de Parfum de Maison Aurelle. Ámbar negro, oud, sándalo y azahar. 100 ml — 285 €.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Sin JS no hay preloader ni estados ocultos: la página es legible siempre -->
+  <noscript><style>.preloader{display:none}body.is-loading{overflow:auto}</style></noscript>
+</head>
+<body class="is-loading">
+
+  <!-- Cursor personalizado (solo puntero fino, ver main.js) -->
+  <div class="cursor" aria-hidden="true"></div>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" aria-hidden="true">
+    <p class="preloader__logo">
+      <span class="preloader__word">
+        <span style="--i:0">M</span><span style="--i:1">A</span><span style="--i:2">I</span><span style="--i:3">S</span><span style="--i:4">O</span><span style="--i:5">N</span>
+      </span>
+      <span class="preloader__word preloader__word--accent">
+        <span style="--i:6">A</span><span style="--i:7">U</span><span style="--i:8">R</span><span style="--i:9">E</span><span style="--i:10">L</span><span style="--i:11">L</span><span style="--i:12">E</span>
+      </span>
+    </p>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <a class="header__logo" href="#inicio">Maison Aurelle</a>
+    <nav class="header__nav" aria-label="Principal">
+      <a href="#notas">Notas</a>
+      <a href="#ritual">El ritual</a>
+      <a class="header__cta" href="#adquirir">Adquirir — 285&nbsp;€</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <figure class="hero__media media">
+        <img
+          src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1800&q=80"
+          data-fallbacks="https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1800&q=80|https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1800&q=80"
+          alt="Frasco de Ámbar Noir sobre fondo oscuro, atravesado por una luz cálida"
+          fetchpriority="high">
+      </figure>
+      <div class="hero__veil" aria-hidden="true"></div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow label">Maison Aurelle — Eau de Parfum</p>
+        <h1 class="hero__title" data-split-chars>Ámbar Noir</h1>
+        <p class="hero__sub">La noche, destilada.</p>
+      </div>
+
+      <div class="hero__scroll" aria-hidden="true">
+        <span class="label">Descender</span>
+        <span class="hero__scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ============ MANIFIESTO ============ -->
+    <section class="manifiesto">
+      <p class="manifiesto__text" data-split-words>
+        Hay perfumes que se anuncian. Y hay perfumes que se recuerdan.
+        Ámbar Noir no entra en una habitación: la ocupa.
+        Resina negra, madera quemada, un azahar que llega tarde.
+        Lo demás es silencio.
+      </p>
+      <span class="hairline manifiesto__hairline" aria-hidden="true"></span>
+    </section>
+
+    <!-- ============ NOTAS OLFATIVAS ============ -->
+    <section class="notas" id="notas">
+      <header class="notas__header">
+        <p class="label">Composición</p>
+        <h2 class="notas__title">Tres actos.<br>Una sola noche.</h2>
+      </header>
+
+      <article class="nota" data-from="left">
+        <figure class="nota__media media" data-reveal>
+          <img loading="lazy"
+            src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1200&q=80"
+            data-fallbacks="https://images.unsplash.com/photo-1463320726281-696a485928c7?auto=format&fit=crop&w=1200&q=80"
+            alt="Flores blancas de azahar sobre fondo en penumbra">
+        </figure>
+        <div class="nota__body">
+          <p class="label nota__num">I — Salida</p>
+          <h3 class="nota__name">Azahar y bergamota</h3>
+          <p class="nota__desc">Luz breve. Un azahar que se abre y ya se está yendo.</p>
+        </div>
+      </article>
+
+      <article class="nota nota--reverse" data-from="right">
+        <figure class="nota__media media" data-reveal>
+          <img loading="lazy"
+            src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=1200&q=80"
+            data-fallbacks="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=1200&q=80"
+            alt="Humo claro dibujándose sobre un fondo negro">
+        </figure>
+        <div class="nota__body">
+          <p class="label nota__num">II — Corazón</p>
+          <h3 class="nota__name">Oud y humo</h3>
+          <p class="nota__desc">El oud no pregunta. Madera oscura, humo lento.</p>
+        </div>
+      </article>
+
+      <article class="nota" data-from="left">
+        <figure class="nota__media media" data-reveal>
+          <img loading="lazy"
+            src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?auto=format&fit=crop&w=1200&q=80"
+            data-fallbacks="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1200&q=80"
+            alt="Líquido ámbar atravesado por la luz, sobre fondo negro">
+        </figure>
+        <div class="nota__body">
+          <p class="label nota__num">III — Fondo</p>
+          <h3 class="nota__name">Ámbar negro y sándalo</h3>
+          <p class="nota__desc">Lo que queda en la piel cuando todo lo demás se ha ido.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ EL RITUAL (scroll horizontal) ============ -->
+    <section class="ritual" id="ritual">
+      <div class="ritual__pin">
+        <header class="ritual__header">
+          <p class="label">El ritual</p>
+        </header>
+        <div class="ritual__track">
+          <article class="panel">
+            <figure class="panel__media media" data-reveal>
+              <img loading="lazy"
+                src="https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=1100&q=80"
+                data-fallbacks="https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1100&q=80"
+                alt="Frasco de vidrio ámbar iluminado lateralmente">
+            </figure>
+            <p class="panel__num label">01</p>
+            <h3 class="panel__caption">Se destila en Grasse.</h3>
+          </article>
+          <article class="panel">
+            <figure class="panel__media media" data-reveal>
+              <img loading="lazy"
+                src="https://images.unsplash.com/photo-1486718448742-163732cd1544?auto=format&fit=crop&w=1100&q=80"
+                data-fallbacks="https://images.unsplash.com/photo-1493515322954-4fa727e97985?auto=format&fit=crop&w=1100&q=80"
+                alt="Bóveda oscura de hormigón con una franja de luz">
+            </figure>
+            <p class="panel__num label">02</p>
+            <h3 class="panel__caption">Reposa veinticuatro meses.</h3>
+          </article>
+          <article class="panel">
+            <figure class="panel__media media" data-reveal>
+              <img loading="lazy"
+                src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1100&q=80"
+                data-fallbacks="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=1100&q=80"
+                alt="Retrato editorial en clave baja, mirada hacia la luz">
+            </figure>
+            <p class="panel__num label">03</p>
+            <h3 class="panel__caption">Se embotella a mano.</h3>
+          </article>
+          <article class="panel">
+            <figure class="panel__media media" data-reveal>
+              <img loading="lazy"
+                src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1100&q=80"
+                data-fallbacks="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1100&q=80"
+                alt="Retrato nocturno de una mujer, medio rostro en sombra">
+            </figure>
+            <p class="panel__num label">04</p>
+            <h3 class="panel__caption">Llega a ti.</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EL FRASCO (sticky) ============ -->
+    <section class="frasco">
+      <div class="frasco__stage">
+        <figure class="frasco__media media">
+          <img loading="lazy"
+            src="https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1400&q=80"
+            data-fallbacks="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1400&q=80"
+            alt="El frasco de Ámbar Noir, vidrio oscuro y tapón dorado">
+        </figure>
+        <h2 class="frasco__word frasco__word--back" data-drift="-1" aria-hidden="true">Ámbar</h2>
+        <h2 class="frasco__word frasco__word--front" data-drift="1" aria-hidden="true">Noir</h2>
+      </div>
+
+      <div class="frasco__data">
+        <div class="dato">
+          <p class="dato__num"><span data-count="100">100</span>&nbsp;ml</p>
+          <p class="label">Eau de Parfum</p>
+        </div>
+        <span class="hairline hairline--v" aria-hidden="true"></span>
+        <div class="dato">
+          <p class="dato__num"><span data-count="22">22</span>&nbsp;%</p>
+          <p class="label">Concentración</p>
+        </div>
+        <span class="hairline hairline--v" aria-hidden="true"></span>
+        <div class="dato">
+          <p class="dato__num"><span data-count="24">24</span>&nbsp;meses</p>
+          <p class="label">De reposo en Grasse</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRENSA ============ -->
+    <section class="prensa">
+      <blockquote class="cita" data-fade>
+        <p>«El oscuro objeto del deseo de esta temporada.»</p>
+        <cite class="label">Vogue</cite>
+      </blockquote>
+      <blockquote class="cita" data-fade>
+        <p>«Un perfume que no necesita presentarse.»</p>
+        <cite class="label">Esquire</cite>
+      </blockquote>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__inner">
+          <span>Vogue</span><i></i><span>Esquire</span><i></i><span>AnOther</span><i></i><span>Harper’s Bazaar</span><i></i><span>Madame Figaro</span><i></i><span>GQ</span><i></i>
+          <span>Vogue</span><i></i><span>Esquire</span><i></i><span>AnOther</span><i></i><span>Harper’s Bazaar</span><i></i><span>Madame Figaro</span><i></i><span>GQ</span><i></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA FINAL ============ -->
+    <section class="cta" id="adquirir">
+      <figure class="cta__media media" data-reveal>
+        <img loading="lazy"
+          src="https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=900&q=80"
+          data-fallbacks="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=80"
+          alt="Frasco de Ámbar Noir centrado sobre fondo negro">
+      </figure>
+      <p class="label">Ámbar Noir — 100 ml</p>
+      <p class="cta__price">285&nbsp;€</p>
+      <button class="btn" type="button" data-magnetic>
+        <span class="btn__label">Añadir al carrito</span>
+      </button>
+      <p class="cta__note">Envío en 48 h. Devolución sin preguntas.</p>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <span class="hairline" aria-hidden="true"></span>
+    <div class="footer__grid">
+      <p class="footer__logo">Maison Aurelle</p>
+      <form class="newsletter" action="#" novalidate>
+        <label class="label" for="nl-email">Reciba pocas noticias, y solo buenas</label>
+        <div class="newsletter__row">
+          <input id="nl-email" type="email" name="email" placeholder="Su correo" autocomplete="email" required>
+          <button type="submit" aria-label="Suscribirse">→</button>
+        </div>
+        <p class="newsletter__ok label" hidden>Gracias. Hablamos pronto.</p>
+      </form>
+      <nav class="footer__links" aria-label="Legal">
+        <a href="#">Instagram</a>
+        <a href="#">Contacto</a>
+        <a href="#">Aviso legal</a>
+      </nav>
+    </div>
+    <p class="footer__legal label">© MMXXVI Maison Aurelle — París · Madrid</p>
+  </footer>
+
+  <!-- GSAP + Lenis: CDN con fallback local vendorizado -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" onerror="this.remove();document.write('<script src=\'vendor/gsap.min.js\'><\/script>')"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" onerror="this.remove();document.write('<script src=\'vendor/ScrollTrigger.min.js\'><\/script>')"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js" onerror="this.remove();document.write('<script src=\'vendor/lenis.min.js\'><\/script>')"></script>
+  <script src="main.js"></script>
+</body>
+</html>
